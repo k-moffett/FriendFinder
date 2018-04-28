@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md">
+                <a href="http://localhost:1337/api/friends">API Friends</a>
+                <h2>Survey Questions</h2>
+                <br>
+                <h5><i>Just answer the question from 1 (disagree greatly) to 5 (agree greatly).</i></h5>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md">
+                <h3>About You</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter Name Here">
+                    </div> 
+
+                    <div class="form-group">
+                        <label for="image_url">Link to photo image</label>
+                        <input type="text" class="form-control" id="image" placeholder="Enter Image URL Here">
+                    </div>
+                </form>
+            <hr>
+            </div>
+        </div>
+
+            <div class="row">
+                <div class="col-md">
+
+                    <div class="card">
+                        <div class="card-header">
+                        Question 1
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">You enjoy rolling in your own filth.</p>
+                                <select class="custom-select custom-select-lg mb-3" id="q-1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>                   
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                        Question 2
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">The smell of farts is just the best.</p>
+                                <select class="custom-select custom-select-lg mb-3" id="q-2">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                        Question 3
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">You find the vacuum frightening.</p>
+                                <select class="custom-select custom-select-lg mb-3" id="q-3">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                        Question 4
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">People should always share all of their food with you all the time.</p>
+                                <select class="custom-select custom-select-lg mb-3" id="q-4">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                        Question 5
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">You seem to shed a lot.</p>
+                                <select class="custom-select custom-select-lg mb-3" id="q-5">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                        Question 6
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">You love just riding around in the car.</p>
+                                <select class="custom-select custom-select-lg mb-3" id="q-6">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                        Question 7
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Fireworks and lightning are terrifying to you.</p>
+                                <select class="custom-select custom-select-lg mb-3" id="q-7">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                        Question 8
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">You really enjoy eating your own filth.</p>
+                                <select class="custom-select custom-select-lg mb-3" id="q-8">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                        Question 9
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">When your friends leave, it feels like they may have left forever.</p>
+                                <select class="custom-select custom-select-lg mb-3" id="q-9">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                        Question 10
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Who's a good dog?</p>
+                                <select class="custom-select custom-select-lg mb-3" id="q-10">
+                                    <option value=1>1</option>
+                                    <option value=2>2</option>
+                                    <option value=3>3</option>
+                                    <option value=4>4</option>
+                                    <option value=5>5</option>
+                                </select>
+                        </div>
+                    </div>
+                    <hr>
+
+        <div class="row">
+            <div class="col-md">
+                <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary btn-lg" id="submit-survey">Submit Survey</button>
+            </div>
+        </div>
+    </div> 
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">It's a match!!!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$("#submit-survey").on("click", () => {
+    event.preventDefault()
+    let name = $('#name').val()
+    let image = $('#image').val()
+    let results = `${$('#q-1').val()},${$('#q-2').val()},${$('#q-3').val()},${$('#q-4').val()},${$('#q-5').val()},${$('#q-6').val()},${$('#q-7').val()},${$('#q-8').val()},${$('#q-9').val()},${$('#q-10').val()}`
+    let user = {
+        name: name,
+        image: image,
+        results: results,
+    }
+
+    $.ajax({
+        type: 'POST',
+        url: '/api/friends',
+        dataType: 'json',
+        data: user,
+    }).then((response) => {
+        $('#modal-body').append(`<h3>${response.name}</h3> <br> <img src="${response.image}" style="width:500px;height:500px;">`)
+    })
+})
+
+</script>
+</body>
+</html>
