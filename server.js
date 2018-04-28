@@ -12,4 +12,4 @@ api_router(app, fs)
 
 
 
-app.listen(1337, ()=> console.log("Listening"));
+app.listen(process.env.PORT || 1337);
