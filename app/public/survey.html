@@ -226,7 +226,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -255,7 +254,7 @@ $("#submit-survey").on("click", () => {
         dataType: 'json',
         data: user,
     }).then((response) => {
-        $('#modal-body').append(`<h3>${response.name}</h3> <br> <img src="${response.image}" style="width:500px;height:500px;">`)
+        $('#modal-body').append(`<h3>${response.name}</h3> <br> <img src="${response.image}" style="width:400px;height:400px;">`)
     })
 })
 

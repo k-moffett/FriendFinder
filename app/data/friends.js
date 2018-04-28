@@ -12,3 +12,5 @@
 {"name":"Taradiddle","image":"https://cebuvintagebicycleclub.files.wordpress.com/2012/02/tumblr_lhx7jyegml1qe0xsro1_1280.jpg?w=611","results":"2,5,1,1,2,1,4,1,5,1"}
 {"name":"Sialoquent","image":"http://www.myfreewallpapershub.com/wp-content/uploads/2014/04/Strange-People-Funny-Pictures.jpg","results":"4,1,1,3,1,5,4,3,4,5"}
 {"name":"Comeuppance","image":"http://s16391.pcdn.co/wp-content/uploads/2015/01/weirdpeople-e1422196017607.jpg","results":"1,1,1,1,1,1,1,1,1,1"}
+{"name":"Kurt","image":"http://1.bp.blogspot.com/-WLWiyxuAL8s/To5nMkKhVKI/AAAAAAAAAPk/Db6ft5ThMLs/s1600/Funny+Face.jpg","results":"5,5,3,5,1,1,1,1,1,5"}
+{"name":"Orange","image":"https://5.imimg.com/data5/WS/QH/MY-15578915/funny-face-mask-250x250.jpg","results":"3,1,1,3,1,3,1,4,4,1"}
